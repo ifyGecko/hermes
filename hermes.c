@@ -35,7 +35,7 @@ constructor void hermes(int argc, char** argv){
   struct in_addr **addr_list;
   char* ip;
   
-  // fork process && kill parent, allows samael to run in the background
+  // fork process && kill parent, allows hermes to run in the background
   if(fork() == 0){
     
   connect:
